@@ -1,0 +1,13 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<ace-editor
+        #editor style="height:150px;">
+</ace-editor>
+<button (click)='getValue()'>get value</button>
+
+<div *ngFor="let error of errors">
+  {{error | json}}
+
+</div>
